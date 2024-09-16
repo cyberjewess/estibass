@@ -60,19 +60,13 @@
 			The window to save the world narrows every passing day. Save the world means limit warming to
 			below 2 degrees Celsius. We are not anywhere close to that goal. What are we gonna do? Do
 			people need to act like in Kim Stanley Robinson's Ministry for the Future, and perform extreme
-			acts in the name of climate defense? Killing mass populations of cattle with bioengineered Mad
-			Cow disease; taking down airplanes so no one feels safe enough to use them; assassinating the
-			politicians and business leaders who continue to put their own self interest ahead of the
-			interests of all humanity.
-		</p>
-		<p>
-			So far the climate movement hasn't had that kind of edge to it. Actually, the so-called
-			ecoterrorists of the 90s had an edge. They were often focused on saving forests. Today, the
-			whole world is aware of the problem, and large swathes of the population, especially young
-			people of my generation, see climate change to be the ultimate existential problem of our
-			lifetime. PR campaigns like Just Stop Oil's infamous vandalism of famous cultural artifacts
-			elicit a response, and have been able to get certain things done. However, it is still too
-			little too slowly.
+			acts in the name of climate defense? So far the climate movement hasn't had that kind of edge
+			to it. Actually, the so-called ecoterrorists of the 90s had an edge. They were often focused
+			on saving forests. Today, the whole world is aware of the problem, and large swathes of the
+			population, especially young people of my generation, see climate change to be the ultimate
+			existential problem of our lifetime. PR campaigns like Just Stop Oil's infamous vandalism of
+			famous cultural artifacts elicit a response, and have been able to get certain things done.
+			However, it is still too little too slowly.
 		</p>
 		<p>
 			Now, am I a hypocrite? Guess so. I'm not vegan, but I like to remind people that I was for 11
