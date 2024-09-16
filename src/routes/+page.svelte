@@ -19,13 +19,7 @@
 			<Link url={'/bass-player'} text={'bass player'} />
 		</li>
 		<li>
-			<NewTabLink
-				url={'https://youtu.be/EM8my7_ApbA?si=sFcY1HKag6tlya-k'}
-				text={'language learner'}
-			/>
-		</li>
-		<li>
-			<NewTabLink url={'https://www.twitter.com/rustologist'} text={'tweeter'} />
+			<Link url={'/language-learner'} text={'language learner'} />
 		</li>
 	</ul>
 </main>
