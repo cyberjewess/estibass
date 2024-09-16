@@ -36,9 +36,4 @@
 	.centered {
 		margin: auto;
 	}
-
-	.content {
-		margin: auto;
-		width: 10%;
-	}
 </style>

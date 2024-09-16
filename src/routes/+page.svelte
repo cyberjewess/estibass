@@ -13,10 +13,10 @@
 	<br />
 	<ul class="links">
 		<li>
-			<NewTabLink url={'https://www.github.com/estherlurie'} text={'developer'} />
+			<Link url={'/developer'} text={'developer'} />
 		</li>
 		<li>
-			<Link url={'/music'} text={'bass player'} />
+			<Link url={'/bass-player'} text={'bass player'} />
 		</li>
 		<li>
 			<NewTabLink
