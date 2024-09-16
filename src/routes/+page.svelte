@@ -21,6 +21,9 @@
 		<li>
 			<Link url={'/language-learner'} text={'language learner'} />
 		</li>
+		<li>
+			<Link url={'/blogger/1'} text={'blogger'} />
+		</li>
 	</ul>
 </main>
 
