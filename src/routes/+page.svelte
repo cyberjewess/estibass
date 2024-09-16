@@ -8,7 +8,7 @@
 	<title>Esti Lurie</title>
 </svelte:head>
 
-<main class="centered">
+<main>
 	<Nameplate />
 	<br />
 	<ul class="links">
@@ -28,10 +28,6 @@
 </main>
 
 <style>
-	.centered {
-		margin: auto;
-	}
-
 	.links {
 		font-size: 1.25em;
 		list-style-type: none; /* Remove bullets */

@@ -3,7 +3,7 @@
 	import NewTabLink from '$lib/NewTabLink.svelte';
 </script>
 
-<main class="centered">
+<main>
 	<Nameplate />
 	<p>
 		I'm a language learner. I love learning about different ways that animals communicate.
@@ -13,9 +13,3 @@
 	<p>I am actively studying German, Yiddish, and Spanish.</p>
 	<p>𐑲 𐑨𐑥 𐑭𐑤𐑕𐑴 𐑤𐑻𐑯𐑤𐑙 <NewTabLink url="https://www.shavian.info" text="𐑖𐑱𐑝𐑾𐑯" />!</p>
 </main>
-
-<style>
-	.centered {
-		margin: auto;
-	}
-</style>

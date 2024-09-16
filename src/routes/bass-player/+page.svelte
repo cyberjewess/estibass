@@ -3,7 +3,7 @@
 	import NewTabLink from '$lib/NewTabLink.svelte';
 </script>
 
-<main class="centered">
+<main>
 	<Nameplate />
 	<p>I'm a bass player in Brooklyn, New York.</p>
 	<p>
@@ -31,9 +31,3 @@
 		I played bass, engineered, and produced the demos
 	</p>
 </main>
-
-<style>
-	.centered {
-		margin: auto;
-	}
-</style>

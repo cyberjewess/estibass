@@ -3,7 +3,7 @@
 	import NewTabLink from '$lib/NewTabLink.svelte';
 </script>
 
-<main class="centered">
+<main>
 	<Nameplate />
 	<article>
 		<h2>Too Hot in L.A.</h2>
@@ -82,10 +82,3 @@
 		</p>
 	</article>
 </main>
-
-<style>
-	.centered {
-		margin: auto;
-		width: 60%;
-	}
-</style>

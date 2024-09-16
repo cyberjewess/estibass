@@ -3,7 +3,7 @@
 	import NewTabLink from '$lib/NewTabLink.svelte';
 </script>
 
-<main class="centered">
+<main>
 	<Nameplate />
 	<p>
 		I'm a software developer, with a specialty in distributed systems written in C++, Rust, and
@@ -30,9 +30,3 @@
 		I graduated from UC Berkeley in 2021 with a BS in Electrical Engineering and Computer Science.
 	</p>
 </main>
-
-<style>
-	.centered {
-		margin: auto;
-	}
-</style>
