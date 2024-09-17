@@ -10,19 +10,11 @@
 
 <main>
 	<Nameplate />
-	<br />
+	<p>Sometimes I write things, and you can read those things here.</p>
 	<ul class="links">
 		<li>
-			<Link url={'/developer'} text={'developer'} />
-		</li>
-		<li>
-			<Link url={'/bass-player'} text={'bass player'} />
-		</li>
-		<li>
-			<Link url={'/language-learner'} text={'language learner'} />
-		</li>
-		<li>
-			<Link url={'/blogger'} text={'blogger'} />
+			<Link url={'/blogger/1'} text={'Too Hot in L.A.'} />
+			<p class="small">2024-09-16</p>
 		</li>
 	</ul>
 </main>
@@ -33,5 +25,12 @@
 		list-style-type: none; /* Remove bullets */
 		padding: 0; /* Remove padding */
 		margin: 0; /* Remove margins */
+	}
+
+	.small {
+		font-size: 0.8em;
+		margin: auto;
+		padding-left: 10%;
+		padding-bottom: 10%;
 	}
 </style>
