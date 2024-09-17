@@ -6,7 +6,13 @@
 <main>
 	<Nameplate />
 	<article>
-		<h2>Too Hot in L.A.</h2>
+		<a
+			class="link"
+			target="_blank"
+			rel="noopener noreferrer"
+			href="https://www.youtube.com/watch?v=GfLBjTOc6Fs&pp=ygUNdG9vIGhvdCBpbiBsYQ%3D%3D"
+			><h2>Too Hot in L.A.</h2>
+		</a>
 		<h3>September 16, 2024</h3>
 		<p>
 			Lately I've been thinking and reading about climate change. We've just lived through the
