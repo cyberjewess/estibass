@@ -6,7 +6,7 @@
 <main>
 	<Nameplate />
 	<p>
-		I'm a language learner. I love learning about different ways that animals communicate.
+		I'm a language learner. I love learning about the ways creatures communicate.
 		<br />My native language is English.
 	</p>
 	<p>I learned Hebrew in school, and can speak at a roughly intermediate level.</p>
