@@ -1,6 +1,7 @@
 <script>
 	import Nameplate from '$lib/Nameplate.svelte';
 	import NewTabLink from '$lib/NewTabLink.svelte';
+	import image from '$lib/assets/esti playing bass red bg.jpg';
 </script>
 
 <main>
@@ -28,6 +29,15 @@
 			text="The What Why"
 		/>.
 		<br />
-		I played bass, engineered, and produced the demos
+		I played bass, engineered, and produced the demos.
 	</p>
+	<img alt="Me playing bass" src={image} />
 </main>
+
+<style>
+	img {
+		width: 30%;
+		height: auto;
+		border-radius: 80px;
+	}
+</style>
