@@ -36,7 +36,7 @@
 
 <style>
 	img {
-		width: 30%;
+		width: 40%;
 		height: auto;
 		border-radius: 80px;
 	}
