@@ -33,15 +33,32 @@
 			I played bass, engineered, and produced the demos.
 		</p>
 	</div>
-	<div>
+	<div class="image">
 		<img alt="Me playing bass" src={image} />
 	</div>
 </main>
 
 <style>
 	img {
-		width: 40%;
+		width: 100%;
 		height: auto;
 		border-radius: 80px;
+	}
+
+	.image {
+		margin: auto;
+	}
+	/* styles for desktop devices */
+	@media only screen and (min-width: 768px) {
+		.image {
+			width: 50%;
+		}
+	}
+
+	/* styles for mobile devices */
+	@media only screen and (max-width: 767px) {
+		.image {
+			width: 90%;
+		}
 	}
 </style>
