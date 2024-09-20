@@ -31,6 +31,8 @@
 			/>.
 			<br />
 			I played bass, engineered, and produced the demos.
+			<br />
+			They were recorded in 2019.
 		</p>
 	</div>
 	<div class="image">
