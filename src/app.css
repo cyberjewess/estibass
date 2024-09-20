@@ -73,6 +73,21 @@ main {
   padding: 10%;
 }
 
+/* styles for desktop devices */
+@media only screen and (min-width: 992px) {
+  main {
+    width: 33vw;
+  }
+
+}
+
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  main {
+    width: 85vw;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
