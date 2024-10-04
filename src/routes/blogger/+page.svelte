@@ -13,6 +13,10 @@
 	<p>Sometimes I write things, and you can read those things here.</p>
 	<ul class="links">
 		<li>
+			<Link url={'/blogger/2'} text={'Half-Earth Socialism'} />
+			<p class="small">2024-10-03</p>
+		</li>
+		<li>
 			<Link url={'/blogger/1'} text={'Too Hot in L.A.'} />
 			<p class="small">2024-09-16</p>
 		</li>
