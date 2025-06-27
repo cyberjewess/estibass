@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Link from '$lib/Link.svelte';
 	import Nameplate from '$lib/Nameplate.svelte';
-	import type { Post } from '$lib/posts';
+	import type { PostMetadata } from '$lib/posts';
 
-	export let data: { posts: Post[] };
+	export let data: { posts: PostMetadata[] };
 </script>
 
 <svelte:head>

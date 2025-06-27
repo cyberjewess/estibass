@@ -2,18 +2,9 @@
 title: 'Too Hot in L.A.'
 date: '2024-09-16'
 slug: 'too-hot-in-la'
-externalLink: 'https://www.youtube.com/watch?v=GfLBjTOc6Fs&pp=ygUNdG9vIGhvdCBpbiBsYQ%3D%3D'
 ---
 
-<script>
-	import Nameplate from '$lib/Nameplate.svelte';
-</script>
-
-<Nameplate />
-
-# Too Hot in L.A.
-
-**September 16, 2024**
+[It's too damn hot!](https://www.youtube.com/watch?v=GfLBjTOc6Fs&pp=ygUNdG9vIGhvdCBpbiBsYQ%3D%3D)
 
 Lately I've been thinking and reading about climate change. We've just lived through the
 hottest summer on record. Currently, Poland is flooding. Parts of Africa are flooding. It's 77

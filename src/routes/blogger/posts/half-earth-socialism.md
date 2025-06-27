@@ -2,18 +2,9 @@
 title: 'Half-Earth Socialism'
 date: '2024-10-03'
 slug: 'half-earth-socialism'
-externalLink: 'https://half.earth'
 ---
 
-<script>
-	import Nameplate from '$lib/Nameplate.svelte';
-</script>
-
-<Nameplate />
-
-# Half-Earth Socialism
-
-**October 3, 2024**
+[half.earth](https://half.earth)
 
 I just finished reading the brilliant book _Half-Earth Socialism_ by Drew Pendergrass and
 Troy Vettese. They argue that the best way to handle the ongoing climate catastrophe, and forge

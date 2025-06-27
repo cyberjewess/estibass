@@ -9,7 +9,12 @@ export const load: PageServerLoad = ({ params }) => {
 		throw error(404, 'Post not found');
 	}
 
+	// Only return metadata, not the component
 	return {
-		post
+		post: {
+			title: post.title,
+			date: post.date,
+			slug: post.slug
+		}
 	};
 };

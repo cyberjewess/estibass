@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Post } from '$lib/posts';
+	import Nameplate from '$lib/Nameplate.svelte';
 
 	export let data: { post: Post };
 
@@ -12,13 +13,8 @@
 </svelte:head>
 
 <main>
-	{#if post.externalLink}
-		<a class="link" target="_blank" rel="noopener noreferrer" href={post.externalLink}>
-			<h2>{post.title}</h2>
-		</a>
-	{:else}
-		<h2>{post.title}</h2>
-	{/if}
+	<Nameplate />
+	<h2>{post.title}</h2>
 	<h3>
 		{new Date(post.date).toLocaleDateString('en-US', {
 			year: 'numeric',
