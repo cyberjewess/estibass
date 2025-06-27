@@ -1,10 +1,8 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import { getPost } from '$lib/posts';
 	import Nameplate from '$lib/Nameplate.svelte';
-	import NewTabLink from '$lib/NewTabLink.svelte';
+	import type { Post } from '$lib/posts';
 
-	export let data: { post: any };
+	export let data: { post: Post };
 
 	$: post = data.post;
 </script>
@@ -30,6 +28,7 @@
 				day: 'numeric'
 			})}
 		</h3>
+		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 		{@html post.html}
 	</article>
 </main>
@@ -47,10 +46,6 @@
 		color: #db9ba7;
 		font-weight: normal;
 		margin-bottom: 2rem;
-	}
-
-	p {
-		margin-bottom: 1.5rem;
 	}
 
 	/* Style markdown content */

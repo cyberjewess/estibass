@@ -1,5 +1,4 @@
 <script lang="ts">
-	import NewTabLink from '$lib/NewTabLink.svelte';
 	import Link from '$lib/Link.svelte';
 	import Nameplate from '$lib/Nameplate.svelte';
 </script>
