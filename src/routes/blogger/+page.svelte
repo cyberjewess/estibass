@@ -2,24 +2,31 @@
 	import NewTabLink from '$lib/NewTabLink.svelte';
 	import Link from '$lib/Link.svelte';
 	import Nameplate from '$lib/Nameplate.svelte';
+	import type { Post } from '$lib/posts';
+
+	export let data: { posts: Post[] };
 </script>
 
 <svelte:head>
-	<title>Esti Lurie</title>
+	<title>Blog - Esti Lurie</title>
 </svelte:head>
 
 <main>
 	<Nameplate />
 	<p>Sometimes I write things, and you can read those things here.</p>
 	<ul class="links">
-		<li>
-			<Link url={'/blogger/2'} text={'Half-Earth Socialism'} />
-			<p class="small">2024-10-03</p>
-		</li>
-		<li>
-			<Link url={'/blogger/1'} text={'Too Hot in L.A.'} />
-			<p class="small">2024-09-16</p>
-		</li>
+		{#each data.posts as post}
+			<li>
+				<Link url={`/blogger/${post.slug}`} text={post.title} />
+				<p class="small">
+					{new Date(post.date).toLocaleDateString('en-US', {
+						year: 'numeric',
+						month: '2-digit',
+						day: '2-digit'
+					})}
+				</p>
+			</li>
+		{/each}
 	</ul>
 </main>
 
