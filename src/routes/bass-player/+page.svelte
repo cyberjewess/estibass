@@ -35,32 +35,53 @@
 			They were recorded in 2019.
 		</p>
 	</div>
-	<div class="image">
-		<img alt="Me playing bass" src={image} />
+	<div class="image-container">
+		<img alt="Me playing bass" src={image} loading="lazy" width="800" height="600" />
 	</div>
 </main>
 
 <style>
+	.image-container {
+		margin: 2rem auto;
+		max-width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
 	img {
 		width: 100%;
 		height: auto;
 		border-radius: 80px;
+		max-width: 600px; /* Prevent image from getting too large on big screens */
+		object-fit: cover;
+		transition: transform 0.2s ease;
 	}
 
-	.image {
-		margin: auto;
+	img:hover {
+		transform: scale(1.02);
 	}
-	/* styles for desktop devices */
-	@media only screen and (min-width: 768px) {
-		.image {
-			width: 50%;
+
+	/* Responsive breakpoints */
+	@media only screen and (max-width: 480px) {
+		.image-container {
+			margin: 1rem auto;
+		}
+
+		img {
+			border-radius: 40px; /* Smaller radius on mobile */
+			max-width: 90vw;
 		}
 	}
 
-	/* styles for mobile devices */
-	@media only screen and (max-width: 767px) {
-		.image {
-			width: 90%;
+	@media only screen and (min-width: 481px) and (max-width: 768px) {
+		img {
+			max-width: 80vw;
+		}
+	}
+
+	@media only screen and (min-width: 769px) {
+		img {
+			max-width: 600px;
 		}
 	}
 </style>
