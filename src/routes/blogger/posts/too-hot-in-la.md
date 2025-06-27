@@ -5,6 +5,16 @@ slug: 'too-hot-in-la'
 externalLink: 'https://www.youtube.com/watch?v=GfLBjTOc6Fs&pp=ygUNdG9vIGhvdCBpbiBsYQ%3D%3D'
 ---
 
+<script>
+	import Nameplate from '$lib/Nameplate.svelte';
+</script>
+
+<Nameplate />
+
+# Too Hot in L.A.
+
+**September 16, 2024**
+
 Lately I've been thinking and reading about climate change. We've just lived through the
 hottest summer on record. Currently, Poland is flooding. Parts of Africa are flooding. It's 77
 degrees in Brooklyn today in mid-September; I'm still running my AC. Things are changing but

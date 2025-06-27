@@ -5,6 +5,16 @@ slug: 'half-earth-socialism'
 externalLink: 'https://half.earth'
 ---
 
+<script>
+	import Nameplate from '$lib/Nameplate.svelte';
+</script>
+
+<Nameplate />
+
+# Half-Earth Socialism
+
+**October 3, 2024**
+
 I just finished reading the brilliant book _Half-Earth Socialism_ by Drew Pendergrass and
 Troy Vettese. They argue that the best way to handle the ongoing climate catastrophe, and forge
 a better society in its wake, is with a socialist planned economy rooted in scientific and ecological

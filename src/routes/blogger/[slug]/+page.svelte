@@ -1,10 +1,10 @@
 <script lang="ts">
-	import Nameplate from '$lib/Nameplate.svelte';
 	import type { Post } from '$lib/posts';
 
 	export let data: { post: Post };
 
 	$: post = data.post;
+	$: PostComponent = post.component;
 </script>
 
 <svelte:head>
@@ -12,29 +12,25 @@
 </svelte:head>
 
 <main>
-	<Nameplate />
-	<article>
-		{#if post.externalLink}
-			<a class="link" target="_blank" rel="noopener noreferrer" href={post.externalLink}>
-				<h2>{post.title}</h2>
-			</a>
-		{:else}
+	{#if post.externalLink}
+		<a class="link" target="_blank" rel="noopener noreferrer" href={post.externalLink}>
 			<h2>{post.title}</h2>
-		{/if}
-		<h3>
-			{new Date(post.date).toLocaleDateString('en-US', {
-				year: 'numeric',
-				month: 'long',
-				day: 'numeric'
-			})}
-		</h3>
-		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-		{@html post.html}
-	</article>
+		</a>
+	{:else}
+		<h2>{post.title}</h2>
+	{/if}
+	<h3>
+		{new Date(post.date).toLocaleDateString('en-US', {
+			year: 'numeric',
+			month: 'long',
+			day: 'numeric'
+		})}
+	</h3>
+	<svelte:component this={PostComponent} />
 </main>
 
 <style>
-	article {
+	main {
 		line-height: 1.6;
 	}
 

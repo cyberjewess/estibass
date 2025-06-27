@@ -1,47 +1,41 @@
-import { marked } from 'marked';
-import matter from 'gray-matter';
+import type { ComponentType } from 'svelte';
+
+// Import all mdsvex files
+const posts = import.meta.glob('/src/routes/blogger/posts/*.md', {
+	eager: true
+});
 
 export interface Post {
 	title: string;
 	date: string;
 	slug: string;
 	externalLink?: string;
-	content: string;
-	html: string;
+	component: ComponentType;
 }
-
-// Import all markdown files as raw text
-const posts = import.meta.glob('./posts/*.md', {
-	eager: true,
-	query: '?raw',
-	import: 'default'
-});
 
 export function getPosts(): Post[] {
 	return Object.entries(posts)
-		.map(([path, content]) => {
-			const { data, content: markdownContent } = matter(content as string);
+		.map(([path, file]) => {
 			const slug = path.split('/').pop()?.replace('.md', '') || '';
+			const metadata = (file as { metadata: Post }).metadata;
 
 			return {
-				...data,
+				...metadata,
 				slug,
-				content: markdownContent,
-				html: marked(markdownContent)
+				component: (file as { default: ComponentType }).default
 			} as Post;
 		})
 		.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
 export function getPost(slug: string): Post | undefined {
-	const post = posts[`./posts/${slug}.md`];
+	const post = posts[`/src/routes/blogger/posts/${slug}.md`];
 	if (!post) return undefined;
 
-	const { data, content: markdownContent } = matter(post as string);
+	const metadata = (post as { metadata: Post }).metadata;
 	return {
-		...data,
+		...metadata,
 		slug,
-		content: markdownContent,
-		html: marked(markdownContent)
+		component: (post as { default: ComponentType }).default
 	} as Post;
 }
