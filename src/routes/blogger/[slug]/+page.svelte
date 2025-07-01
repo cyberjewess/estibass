@@ -14,6 +14,7 @@
 
 <main>
 	<Nameplate />
+	<a href="/blogger">← All posts</a>
 	<h2>{post.title}</h2>
 	<h3>
 		{new Date(post.date).toLocaleDateString('en-US', {
