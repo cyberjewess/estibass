@@ -1,7 +1,7 @@
 <script>
 	import Nameplate from '$lib/Nameplate.svelte';
 	import NewTabLink from '$lib/NewTabLink.svelte';
-	import image from '$lib/assets/esti playing bass red bg.jpg';
+	import image from '$lib/assets/esti pencildive.jpg';
 </script>
 
 <main>
