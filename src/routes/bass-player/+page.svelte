@@ -9,19 +9,19 @@
 	<div>
 		<p>I'm a bass player in Brooklyn, New York.</p>
 		<p>
-			Currently I play in
+			Currently, I play in <NewTabLink
+				url="https://pencildive.bandcamp.com/album/watch-the-world"
+				text="Pencildive"
+			/>, an indie/alt/psych rock band.
+		</p>
+		<p>
+			I also play in
 			<NewTabLink url="https://instagram.com/thehumminahummina" text="Hummina Hummina" />, a trans
 			emo pop punk band.
 		</p>
 		<p>
-			I'm involved in a new indie noise rock project called
+			I'm involved in an indie noise rock project called
 			<NewTabLink url="https://instagram.com/girlfriendmuseum" text="Girlfriend Museum" />.
-		</p>
-		<p>
-			I've also performed with <NewTabLink
-				url="https://instagram.com/heromagnus"
-				text="Hero Magnus"
-			/>.
 		</p>
 		<p>
 			Check out some demos from my college band,
