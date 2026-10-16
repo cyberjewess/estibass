@@ -19,12 +19,9 @@
 		<NewTabLink url="https://linkedin.com/in/estherlurie" text="LinkedIn" />.
 	</p>
 	<p>
-		Currently I work at Bloomberg under the Listed Derivatives organization.
+		Currently I work at Bloomberg in Sustainable Finance.
 		<br />
-		My team is in charge of processing and enriching realtime data for every exchange traded option around
-		the world.
-		<br />
-		This amounts to Bloomberg's largest volume and throughput of data ingestion.
+		I maintain our regulation-compliant, accountable ESG scoring pipeline.
 	</p>
 	<p>
 		I graduated from UC Berkeley in 2021 with a BS in Electrical Engineering and Computer Science.
