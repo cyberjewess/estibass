@@ -1,8 +1,12 @@
 <script>
 	import Nameplate from '#lib/Nameplate.svelte';
 	import NewTabLink from '#lib/NewTabLink.svelte';
-	import image from '#lib/assets/esti pencildive.jpg';
+	import image from '#lib/assets/esti pencildive.webp';
 </script>
+
+<svelte:head>
+	<title>Bass Player - Esti Lurie</title>
+</svelte:head>
 
 <main>
 	<Nameplate />
@@ -36,7 +40,7 @@
 		</p>
 	</div>
 	<div class="image-container">
-		<img alt="Me playing bass" src={image} loading="lazy" width="800" height="600" />
+		<img alt="Me playing bass" src={image} loading="lazy" width="1200" height="1800" />
 	</div>
 </main>
 

@@ -3,6 +3,10 @@
 	import NewTabLink from '#lib/NewTabLink.svelte';
 </script>
 
+<svelte:head>
+	<title>Language Learner - Esti Lurie</title>
+</svelte:head>
+
 <main>
 	<Nameplate />
 	<p>

@@ -20,7 +20,8 @@
 		{new Date(post.date).toLocaleDateString('en-US', {
 			year: 'numeric',
 			month: 'long',
-			day: 'numeric'
+			day: 'numeric',
+			timeZone: 'UTC'
 		})}
 	</h3>
 	<PostComponent />

@@ -24,11 +24,8 @@ interface MdsvexFile {
 }
 
 export function getPostsMetadata(): PostMetadata[] {
-	console.log('Available posts:', Object.keys(posts));
-
 	return Object.entries(posts)
 		.map(([path, file]) => {
-			console.log('Processing post:', path, file);
 			const slug = path.split('/').pop()?.replace('.md', '') || '';
 
 			// For mdsvex files, the metadata and component are in the file object
@@ -38,27 +35,6 @@ export function getPostsMetadata(): PostMetadata[] {
 				...metadata,
 				slug
 			} as PostMetadata;
-		})
-		.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-}
-
-export function getPosts(): Post[] {
-	console.log('Available posts:', Object.keys(posts));
-
-	return Object.entries(posts)
-		.map(([path, file]) => {
-			console.log('Processing post:', path, file);
-			const slug = path.split('/').pop()?.replace('.md', '') || '';
-
-			// For mdsvex files, the metadata and component are in the file object
-			const metadata = (file as MdsvexFile).metadata || {};
-			const component = (file as MdsvexFile).default;
-
-			return {
-				...metadata,
-				slug,
-				component
-			} as Post;
 		})
 		.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }

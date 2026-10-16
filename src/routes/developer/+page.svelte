@@ -3,12 +3,16 @@
 	import NewTabLink from '#lib/NewTabLink.svelte';
 </script>
 
+<svelte:head>
+	<title>Developer - Esti Lurie</title>
+</svelte:head>
+
 <main>
 	<Nameplate />
 	<p>
 		I'm a software engineer with experience in distributed systems written in C++, Rust, and Python.
 		<br />
-		This site is a Sveltekit project.
+		This site is a SvelteKit project.
 	</p>
 	<p>
 		Check out my <NewTabLink url="https://github.com/estherlurie" text="Github" />.
