@@ -21,7 +21,7 @@
 	<p>
 		Currently I work at Bloomberg in Sustainable Finance.
 		<br />
-		I maintain our regulation-compliant, accountable ESG scoring pipeline.
+		I help develop and maintain our regulation-compliant, accountable ESG scoring pipeline.
 	</p>
 	<p>
 		I graduated from UC Berkeley in 2021 with a BS in Electrical Engineering and Computer Science.
