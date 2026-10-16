@@ -6,7 +6,7 @@
 <main>
 	<Nameplate />
 	<p>
-		I'm a software developer, with a specialty in distributed systems written in C++, Rust, and
+		I'm a software developer with experience in distributed systems written in C++, Rust, and
 		Python.
 		<br />
 		This site is a Sveltekit project.
