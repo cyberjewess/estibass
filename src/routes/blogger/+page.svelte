@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Link from '#lib/Link.svelte';
 	import Nameplate from '#lib/Nameplate.svelte';
-	import type { PostMetadata } from '#lib/posts.ts';
+	import type { PageProps } from './$types';
 
-	export let data: { posts: PostMetadata[] };
+	let { data }: PageProps = $props();
 </script>
 
 <svelte:head>

@@ -1,6 +1,5 @@
 <script lang="ts">
-	export let url: string;
-	export let text: string;
+	let { url, text }: { url: string; text: string } = $props();
 </script>
 
 <a class="link" href={url}>{text}</a>

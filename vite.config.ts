@@ -14,7 +14,10 @@ export default defineConfig({
 				})
 			],
 			extensions: ['.svelte', '.md'],
-			adapter: adapter()
+			adapter: adapter(),
+			// Force Svelte 5 runes mode for our components; mdsvex output (.md) stays in auto mode
+			dynamicCompileOptions: ({ filename }) =>
+				filename.endsWith('.svelte') ? { runes: true } : undefined
 		})
 	],
 	assetsInclude: ['**/*.md']

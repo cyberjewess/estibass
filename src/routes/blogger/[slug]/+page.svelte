@@ -2,10 +2,10 @@
 	import type { Post } from '#lib/posts.ts';
 	import Nameplate from '#lib/Nameplate.svelte';
 
-	export let data: { post: Post };
+	let { data }: { data: { post: Post } } = $props();
 
-	$: post = data.post;
-	$: PostComponent = post.component;
+	let post = $derived(data.post);
+	let PostComponent = $derived(post.component);
 </script>
 
 <svelte:head>
@@ -23,7 +23,7 @@
 			day: 'numeric'
 		})}
 	</h3>
-	<svelte:component this={PostComponent} />
+	<PostComponent />
 </main>
 
 <style>

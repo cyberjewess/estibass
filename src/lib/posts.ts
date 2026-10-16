@@ -1,4 +1,4 @@
-import type { ComponentType } from 'svelte';
+import type { Component } from 'svelte';
 
 // Import all mdsvex files as modules
 const posts = import.meta.glob('../routes/blogger/posts/*.md', {
@@ -9,7 +9,7 @@ export interface Post {
 	title: string;
 	date: string;
 	slug: string;
-	component: ComponentType;
+	component: Component;
 }
 
 export interface PostMetadata {
@@ -20,7 +20,7 @@ export interface PostMetadata {
 
 interface MdsvexFile {
 	metadata: Post;
-	default: ComponentType;
+	default: Component;
 }
 
 export function getPostsMetadata(): PostMetadata[] {
