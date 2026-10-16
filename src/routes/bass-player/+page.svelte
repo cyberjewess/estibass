@@ -10,7 +10,7 @@
 		<p>I'm a bass player in Brooklyn, New York.</p>
 		<p>
 			Currently, I play in <NewTabLink
-				url="https://pencildive.bandcamp.com/album/watch-the-world"
+				url="https://pencildive.bandcamp.com/track/weird-love"
 				text="Pencildive"
 			/>, an indie/alt/psych rock band.
 		</p>
