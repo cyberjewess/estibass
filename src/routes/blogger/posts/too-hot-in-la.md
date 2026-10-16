@@ -26,7 +26,7 @@ companies also have been using carbon credits which have been proven to be bogus
 the project is something real, it is something like a monoculture forest; these projects are
 for lumber and will be cut down in a few years, and monocultures are prone to wildfires, as
 we've been seeing in Canada. Most scholars I respect conclude that to prevent climate collapse
-we must end capitalism. As Marc Fisher said after Frederic Jameson, it is easier to imagine
+we must end capitalism. As Mark Fisher said after Fredric Jameson, it is easier to imagine
 the end of the world than the end of capitalism. We are soaring headfirst into that reality.
 
 It amazes me how common sense climate collapse prevention is, and all the knock on benefits it
@@ -34,7 +34,7 @@ will bring. Burn less pollutants, have cleaner air and water. Reduce car depende
 safer, quieter, cleaner cities. The more people walk and bike, the healthier they are. The
 more they interact with people in their community. The more they pay attention to their
 surroundings and their local environment. Shifting towards a more plant based diet, where food
-is grown locally, reduces both methane emmissions, inefficient land usage, and the suffering
+is grown locally, reduces methane emissions, inefficient land usage, and the suffering
 of conscious creatures who are exploited for their entire existence. We live our lives at an
 inhuman pace, and would be wise to return to a slower world.
 
@@ -49,7 +49,7 @@ has the support of nearly half the country, and they are doing everything in the
 refuse the reality of climate change, and tear apart the world's ability to adequately respond
 to the danger.
 
-The window to save the world narrows every passing day. Save the world means limit warming to
+The window to save the world narrows every passing day. Saving the world means limiting warming to
 below 2 degrees Celsius. We are not anywhere close to that goal. What are we gonna do? Do
 people need to act like in Kim Stanley Robinson's Ministry for the Future, and perform extreme
 acts in the name of climate defense? So far the climate movement hasn't had that kind of edge

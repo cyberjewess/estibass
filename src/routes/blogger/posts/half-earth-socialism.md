@@ -15,16 +15,16 @@ make a convincing case that it is both practical and feasible with today's techn
 are explicitly charting out a utopian vision, with the goal of providing concrete ideas that bring
 us closer to our goals of a sustainable global society where all human needs are met.
 
-Underpinning this vision is an epistomological argument. The neoliberal order which controls
+Underpinning this vision is an epistemological argument. The neoliberal order which controls
 our world understands the economy to be so complex as to be ultimately unknowable and
 uncontrollable. The Market is the supreme mechanism of knowledge production, which distributes
 resources the most efficiently. Therefore, the argument follows, we should loosen as many
 restrictions on it as possible, and let it lead us to utopia. Clearly, this isn't working.
 Vettese and Pendergrass argue that Nature is even more unknowable than the Market. The Earth's
 biosphere is so complex that any attempts to avoid climate catastrophe via geoengineering,
-which is the Market's solution, is doomed to fail. At best, these measures, such as Solar
+which is the Market's solution, are doomed to fail. At best, these measures, such as Solar
 Radiation Management and large scale carbon capture, only prevent the inevitable, and likely
-cause unforseen complications. The best solution for lasting change is to rewild the planet,
+cause unforeseen complications. The best solution for lasting change is to rewild the planet,
 letting Mother Nature take back control of her climate, and consciously direct human economic
 activity towards the sustainable flourishing of us all.
 
@@ -36,7 +36,7 @@ completely removes money as a universal measure, instead opting for _in natura_
 calculation, i.e. comparing different resource allocations directly. They also admit that while
 capitalism has a tendency towards surplus, socialism has a tendency towards shortage. This seems
 to be an inherent part of a planned system, made worse when incentives misalign, such as in the
-Soviet system where planning departments who appeased the central bureaucry, without necessarily
+Soviet system where planning departments who appeased the central bureaucracy, without necessarily
 being more efficient, retained decision making power. In order to combat this, planning must be
 as democratic as possible. For example, a coarse grain plan can be drawn up based on supercomputer
 simulations of the global economy, and finer grain plans can be created at more local levels to
@@ -60,5 +60,5 @@ the world that we want to build, if we are to escape this hell. _Half-Earth Soci
 have all the answers, but it lays out a plan. We can disagree with it, iterate on it, mend it,
 and improve it. We can take control of our destiny.
 
-I highly recommend Ursula K. Le Guin's _The Dispossesed_ and Kim Stanley Robinson's
+I highly recommend Ursula K. Le Guin's _The Dispossessed_ and Kim Stanley Robinson's
 _Pacific Edge_ for some delicious ecosocialist utopian fiction. Godspeed!
