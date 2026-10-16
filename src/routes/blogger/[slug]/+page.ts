@@ -1,4 +1,4 @@
-import { getPost } from '$lib/posts';
+import { getPost } from '#lib/posts.ts';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = ({ params, data }) => {

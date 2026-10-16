@@ -28,6 +28,12 @@ export default [
 		}
 	},
 	{
-		ignores: ['build/', '.svelte-kit/', 'dist/']
+		rules: {
+			// Only matters for sites served under a base path; this one isn't, and it also flags external links
+			'svelte/no-navigation-without-resolve': 'off'
+		}
+	},
+	{
+		ignores: ['build/', '.svelte-kit/', '.vercel/', 'dist/']
 	}
 ];

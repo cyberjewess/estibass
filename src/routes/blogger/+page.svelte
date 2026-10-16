@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Link from '$lib/Link.svelte';
-	import Nameplate from '$lib/Nameplate.svelte';
-	import type { PostMetadata } from '$lib/posts';
+	import Link from '#lib/Link.svelte';
+	import Nameplate from '#lib/Nameplate.svelte';
+	import type { PostMetadata } from '#lib/posts.ts';
 
 	export let data: { posts: PostMetadata[] };
 </script>
@@ -14,7 +14,7 @@
 	<Nameplate />
 	<p>Sometimes I write things, and you can read those things here.</p>
 	<ul class="links">
-		{#each data.posts as post}
+		{#each data.posts as post (post.slug)}
 			<li>
 				<Link url={`/blogger/${post.slug}`} text={post.title} />
 				<p class="small">

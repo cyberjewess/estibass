@@ -1,6 +1,6 @@
 <script>
-	import Nameplate from '$lib/Nameplate.svelte';
-	import NewTabLink from '$lib/NewTabLink.svelte';
+	import Nameplate from '#lib/Nameplate.svelte';
+	import NewTabLink from '#lib/NewTabLink.svelte';
 </script>
 
 <main>

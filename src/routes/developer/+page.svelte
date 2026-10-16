@@ -1,6 +1,6 @@
 <script>
-	import Nameplate from '$lib/Nameplate.svelte';
-	import NewTabLink from '$lib/NewTabLink.svelte';
+	import Nameplate from '#lib/Nameplate.svelte';
+	import NewTabLink from '#lib/NewTabLink.svelte';
 </script>
 
 <main>
@@ -21,8 +21,8 @@
 	<p>
 		Currently I work at Bloomberg in Sustainable Finance.
 		<br />
-		I help develop and maintain the pipeline behind Bloomberg's ESG scores, turning company and
-		government disclosures into regulation compliant, auditable scores.
+		I help develop and maintain the pipeline behind Bloomberg's ESG scores, turning company and government
+		disclosures into regulation compliant, auditable scores.
 	</p>
 	<p>
 		I graduated from UC Berkeley in 2021 with a BS in Electrical Engineering and Computer Science.

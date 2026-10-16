@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { Post } from '$lib/posts';
-	import Nameplate from '$lib/Nameplate.svelte';
+	import type { Post } from '#lib/posts.ts';
+	import Nameplate from '#lib/Nameplate.svelte';
 
 	export let data: { post: Post };
 

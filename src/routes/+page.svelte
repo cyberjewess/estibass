@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Link from '$lib/Link.svelte';
-	import Nameplate from '$lib/Nameplate.svelte';
+	import Link from '#lib/Link.svelte';
+	import Nameplate from '#lib/Nameplate.svelte';
 </script>
 
 <svelte:head>
@@ -12,16 +12,16 @@
 	<br />
 	<ul class="links">
 		<li>
-			<Link url={'/developer'} text={'developer'} />
+			<Link url="/developer" text="developer" />
 		</li>
 		<li>
-			<Link url={'/bass-player'} text={'bass player'} />
+			<Link url="/bass-player" text="bass player" />
 		</li>
 		<li>
-			<Link url={'/language-learner'} text={'language learner'} />
+			<Link url="/language-learner" text="language learner" />
 		</li>
 		<li>
-			<Link url={'/blogger'} text={'blogger'} />
+			<Link url="/blogger" text="blogger" />
 		</li>
 	</ul>
 </main>
